@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Monument Extended', 'Helvetica', 'Arial', 'sans-serif';
+    color: #f1f1f1;
+}
+
+.banner {
+    background-image: linear-gradient(0deg, #5a5a5a 0.01%, rgba(17, 15, 15, 0) 50%), url('/dist/img/1024.webp');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+
+.bannercontact {
+    background-image: linear-gradient(0deg, #5a5a5a 0.01%, rgba(17, 15, 15, 0) 50%), url('https://cdx.monstercat.com/resized/372a7b44094cf1b141393991727963db4ffd48f6/1400.webp');
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+
+.albumcontent h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F1F1F1;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.trackitem p {
+    font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.footer h2 {
+    font-size: 18px;
+}
+
+.footer h3 {
+    font-size: 14px;
+    font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+    font-style: italic;
+}
+
+#myVideo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.aboutvideobg h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F1F1F1;
+    -webkit-text-fill-color: transparent;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 500;
+}
+
+.aboutvideobg h2 {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 500;
+}
+
+.paragraph p {
+    line-height: 35px;
+    font-style: italic;
+    font-size: 18px;
+    max-width: 70%;
+}
+
+.vision__wrapper p{
+    font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+    font-style: italic;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 25px 0;
+}
+
+.companyvalues__wrapper p {
+    font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+    font-style: italic;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.companyvalues__wrapper h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tns-nav button{
+    width: 80px;
+    height: 8px;
+    margin: 0 8px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.tns-nav{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.tns-nav .tns-nav-active{
+    background-color: white;
+    border: none;
+}
+
+.last p {
+    font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+    font-style: italic;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+
